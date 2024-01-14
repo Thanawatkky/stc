@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(../Kanit/Kanit-Light.ttf);
+}
+
+body {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.card-rounded {
+    border-radius: 2.5em;
+}
+.alert-success { 
+    position: absolute;
+    right: -450px;
+    top: 80px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(49, 174, 49);
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    z-index: 1000;
+    color: #ffffff;
+    text-align: center;
+}
+.alert-error { 
+    position: absolute;
+    right: -450px;
+    top: 80px;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(225, 85, 114);
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    z-index: 1000;
+    color: #ffffff;
+    text-align: center;
+}
